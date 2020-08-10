@@ -1,0 +1,250 @@
+body{
+	margin: -15px auto 0px auto;
+	padding: 0px 10px 10px 10px;
+	background: white;
+}
+
+/*Word Google formatting*/
+.h2-neusa{
+	font-size: 90px; 
+	margin-top: 160px;
+	margin-bottom: 10px;
+}
+
+/*Word Google color formatting*/
+.cor-blue{
+	color: #4285F4;
+}
+.cor-red{
+	color: #EA4335;
+}
+.cor-yellow{
+	color: #FBBC05;
+}
+.cor-green{
+	color: #34A853;
+}
+
+/*Button formating*/
+.button {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+form{
+	display: inline;
+}
+
+/*links upper-right formatting*/
+.h1-formatting{
+	text-align: right;
+}
+
+.a-neusa{
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 11px 4px;
+    padding: 0 10px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+	font-weight: 100;
+}
+
+/*links final formatting*/
+.a-neusa:link {
+  text-decoration: none;
+}
+.a-neusa:visited {
+  text-decoration: none;
+}
+.a-neusa:hover {
+  text-decoration: underline;
+}
+.a-neusa:active {
+  text-decoration: underline;
+}
+
+/*Search box text formatting*/
+.search-text{
+	font-size: 16px; 
+	text-align: left;
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid #DDDDDD;
+    color: #272727;
+    width: 584px;
+    height: 34px;
+    padding-left: 40px;
+}
+
+/*Search box icon formatting*/
+.search-icon{
+	margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 24px;
+	display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+	position: absolute;
+    top: 342px;
+    left: 385px;
+}
+
+/*Search box mic formatting*/
+.search-mic{
+	flex: 1 0 auto;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+	position: absolute;
+    top: 340px;
+    left: 948px;
+}
+
+/*Advanced label formatting*/
+.adv-search{
+	text-align: left;
+	color: #D93025;
+	margin-left: 30px;
+    font-size: 20px;
+	font-family: arial,sans-serif;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+	margin-top: -10px;
+	cursor: default;
+}
+
+.hr-format{
+	border: 1px solid #EBEBEB;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: 25px;
+}
+
+.tabs{
+	margin-top: 30px;
+}
+
+.find-p{
+	margin-left: 30px;
+	font-size: 16px;
+	color: #333333;
+	font-weight: inherit;
+    font-style: inherit;
+	font-family: arial,sans-serif;
+    vertical-align: baseline;
+	text-align: left;
+	padding-left: 30px; 
+}
+
+.find-p-right{
+	font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    vertical-align: middle;
+	font-family: arial,sans-serif;
+	margin-left: -10px;
+	text-align: left;
+}
+
+.p-left{
+	margin-left: 30px;
+	font-size: 13px;
+	vertical-align: middle;
+	font-weight: inherit;
+    font-style: inherit;
+	font-family: arial,sans-serif;
+	color: #222;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.p-right{
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	font-weight: inherit;
+    font-style: inherit;
+	color: #555;
+    padding-left: 5px;
+	margin-top: 13px;
+    vertical-align: middle;
+	text-align: left;
+}
+
+.p-right-last{
+	font-size: 11px;
+	font-family: arial,sans-serif;
+	font-weight: inherit;
+    font-style: inherit;
+	color: #555;
+    padding-left: 5px;
+	margin-top: 10px; 
+	text-align: left;
+	padding-top: 13px; 
+}
+
+.p-right-rest{
+	color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    padding-left: 5px;
+	line-height: 0;
+	text-align: left;
+}
+
+/*The 4 search boxes formatting*/
+.search-box{
+	border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+	width: 540px;
+	text-align: left;
+	padding-left: 5px;
+	margin-top: 6px;
+	vertical-align: middle;
+}
+
+.button2 {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+	display: none;
+}
